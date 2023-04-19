@@ -21,7 +21,8 @@ public enum STORAGE_TYPE {
     /**
      * STORAGE_TYPE.SQL: MySQL, PostgreSQL...
      * STORAGE_TYPE.NOSQL_1: MongoDB
+     * STORAGE_TYPE.NOSQL_SCYLLA: ScyllaDB
      */
 
-    SQL, NOSQL_1
+    SQL, NOSQL_1, NOSQL_SCYLLA
 }
